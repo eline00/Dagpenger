@@ -10,7 +10,7 @@ arbeidsdager per år, for å regne ut dagsatsen.
 Først lagde jeg en konstuktør som tar inn 3 års intekt. Deretter lagde jeg 
 metoden "qualified()" som sjekker om personen er kvalifisert eller ikke. Metoden 
 returnerer false dersom personen ikke hadde noen intekt det siste kalenderåret. Dersom 
-personen enten tjente til sammen over 3G de siste tre årene eller tjente over 1.5G det forrige kalenderåret 
+personen enten tjente til sammen under 3G de siste tre årene eller tjente under 1.5G det forrige kalenderåret 
 skal metoden også returnere false. Dersom metoden returnerer false er personen
 ikke kvalifisert, ellers returnerer den true og personen kan få dagpenger.
 
